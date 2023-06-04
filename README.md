@@ -44,7 +44,12 @@ After 400 epochs, here is the result I got:
 |--------------------|---------|---------|---------|-------------|
 | YOLOv5-blazeface   | 0.9431  | 0.9592  | 0.9714  | 0.8782      |
         
-I believed this was fairly good enough result for a mini-project! 
+I believed this was fairly good enough result for a mini-project (and for a fully training from scratch model)! 
+
+### Conclusion
+
+YOLOv5-blazeface has almost the same performance as YOLOv5-face in case the face is fully displayed in the camera frame. If the face is not fully displayed or obscured by the object, then YOLOv5-blazeface's confidence score will be lower than that of YOLOv5-face, I think the reason is because yolov5-face has been trained on the big dataset as well as fully augmented.
+
 
 ## Usage
 > For inference purpose only!
@@ -65,6 +70,10 @@ python predict.py --video 0  # camera
 python predict.py --video path/to/video  # video
 python predict.py --img path/to/image  # image
 ```
+
+**Example of inference with my camera laptop**
+![Video](https://drive.google.com/file/d/1jSGFXKDMbtnZQteR6MkMSuWZhA4OCiSz/view?usp=drive_link)
+
 ### Deployment
 
 I have tried to deploy the project on Streamlit. But the limitation of time do not allow me to fix issues to allow website using user's webcam for testing the detection model. Hope this will not be a strictly minus point to my overall score...
