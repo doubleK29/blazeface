@@ -73,6 +73,7 @@ python predict.py --img path/to/image  # image
 
 **Example of inference with my camera laptop**
 [Video](https://drive.google.com/file/d/1jSGFXKDMbtnZQteR6MkMSuWZhA4OCiSz/view?usp=sharing)
+![Demo](https://github.com/doubleK29/blazeface/blob/master/demo.gif)
 
 ### Deployment
 
