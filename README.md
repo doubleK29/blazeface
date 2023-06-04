@@ -49,10 +49,11 @@ I believed this was fairly good enough result for a mini-project!
 ## Usage
 > For inference purpose only!
 
-### Install
+### Install with Miniconda
 ```bash
 git clone https://github.com/doubleK29/blazeface.git
 cd blazeface
+conda create -n blazeface python=3.9
 pip install -r requirements.txt
 ```
 ### Inference
@@ -64,6 +65,9 @@ python predict.py --video 0  # camera
 python predict.py --video path/to/video  # video
 python predict.py --img path/to/image  # image
 ```
+### Deployment
+
+I have tried to deploy the project on Streamlit. But the limitation of time do not allow me to fix issues to allow website using user's webcam for testing the detection model. Hope this will not be a strictly minus point to my overall score...
 
 ## References
 
