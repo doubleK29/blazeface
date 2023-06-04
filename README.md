@@ -1,4 +1,4 @@
-# Face detection: Implementing YOLOv5-face and YOLOv5-blazeFace using Pytorch
+# Face detection: Implementing YOLOv5-face and YOLOv5-blazeface using Pytorch
 
 ## BlazeFace overview
 
