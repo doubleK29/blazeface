@@ -1,0 +1,9 @@
+__pycache__/
+draft.py
+check_data.py
+scripts/
+data/combine
+config/data.combine.yaml
+config/data.widerface.yaml
+runs/
+.vscode/
