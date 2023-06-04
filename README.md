@@ -74,6 +74,7 @@ python predict.py --img path/to/image  # image
 **Example of inference with my camera laptop**
 ![Video](https://drive.google.com/file/d/1jSGFXKDMbtnZQteR6MkMSuWZhA4OCiSz/view)
 
+ file:///home/khanhhv/workspace/blazeface/demo.mp4
 ### Deployment
 
 I have tried to deploy the project on Streamlit. But the limitation of time do not allow me to fix issues to allow website using user's webcam for testing the detection model. Hope this will not be a strictly minus point to my overall score...
